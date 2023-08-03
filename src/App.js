@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch("/users")
+    fetch("/react")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
